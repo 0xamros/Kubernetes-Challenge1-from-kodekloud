@@ -1,0 +1,4 @@
+####################
+kubectl config set-credentials martin --client-certificate ./martin.crt --client-key ./martin.key
+####################
+kubectl config set-context developer --cluster=kubernetes --user=martin
